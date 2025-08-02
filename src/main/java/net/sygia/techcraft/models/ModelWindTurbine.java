@@ -32,7 +32,7 @@ public class ModelWindTurbine<T extends Entity> extends EntityModel<T> {
 				.texOffs(8, 0).addBox(-3.0F, 21.0F, -3.0F, 6.0F, 3.0F, 6.0F, new CubeDeformation(0.0F))
 				.texOffs(8, 17).addBox(-2.0F, 19.0F, -2.0F, 4.0F, 3.0F, 4.0F, new CubeDeformation(0.0F))
 				.texOffs(8, 9).addBox(-2.0F, -24.0F, -2.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.0F))
-				.texOffs(0, 0).addBox(-1.0F, -24.0F, -1.0F, 2.0F, 48.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(1.0F, 16.0F, 0.0F));
+				.texOffs(0, 0).addBox(-1.0F, -24.0F, -1.0F, 2.0F, 48.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));
 
 		PartDefinition fan = partdefinition.addOrReplaceChild("fan", CubeListBuilder.create(), PartPose.offset(0.0F, 0.0F, 0.0F));
 
